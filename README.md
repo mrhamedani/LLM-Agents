@@ -18,4 +18,5 @@ Then we connect the model to Chroma DB. Now the model answers our question using
 - Using the pipeline
 - Creating the Chroma DB database and connecting to the model
 - Using the llama model
+- Using ChromaDB embedding to find related items
 ـ
