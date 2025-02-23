@@ -29,6 +29,7 @@ Then we connect the model to Chroma DB. Now the model answers our question using
 A semantic caching system aims to identify similar or identical user requests. When a matching request is found, the system retrieves the corresponding information from the cache, reducing the need to fetch it from the original source.I place the cache system between the user and the vector database, not between the user and the large language model.Important topics:
 -  hugging face --> Gemma-2b-it model 
 -  Database on ChromaDB & SemanticCache on Faiss
--  SemanticCache --> init, retrieve ,store
--  SemanticCache --> thresold Semantic distance
+-  SemanticCache(RAG) --> def (init, retrieve ,store) & class (semantic_cache)
+-  SemanticCache(RAG) --> thresold Semantic distance
+  
 ـ
