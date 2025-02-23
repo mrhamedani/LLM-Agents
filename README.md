@@ -18,12 +18,12 @@ Creating a chatbot using openai api and creating a menu using Gradio. This chatb
 **4- BBCNews_Chromadb_Liama:**
 
 BBC News dataset is used. Here, we first save a part of the dataset using the Chroma DB database and extract the news related to the word "laptop" by embedding.
-Then we use the llama model from the transformer library related to huggingface and also use it by pipline.
+Then we use the llama model from the transformer library related to huggingface and also use it by transformers.
 Then we connect the model to Chroma DB. Now the model answers our question using the resources provided to it.Important topics:
-- Using the pipeline
-- Creating the Chroma DB database and connecting to the model
-- Using the llama model
-- Using ChromaDB --> embedding to find related items
+- Creating the Chroma DB database
+- embedding with sentence_transformers
+- Using the LLM 
+- Using Transformers libery for working with LLM -->AutoTokenizer/AutoModelForCausalLM/pipeline
 
 **5.SemanticCache-Faiss&ChromaDB**
 A semantic caching system aims to identify similar or identical user requests. When a matching request is found, the system retrieves the corresponding information from the cache, reducing the need to fetch it from the original source.I place the cache system between the user and the vector database, not between the user and the large language model.Important topics:
