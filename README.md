@@ -1,6 +1,6 @@
-# How-to-apply-popular-LLMs
+# LLM-Agents
 
- Apply and Implement Strategies for Large Language Models
+ Apply agents and Implement Strategies for Large Language Models
 
 
 **1-Chatbot-Panel-OpenAI.ipynb:**
