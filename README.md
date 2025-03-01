@@ -30,7 +30,7 @@ A semantic caching system aims to identify similar or identical user requests. W
 -  hugging face --> Gemma-2b-it model 
 -  Database on ChromaDB & SemanticCache on Faiss
 -  SemanticCache(RAG) --> def (init, retrieve ,store) & class (semantic_cache)
--  SemanticCache(RAG) --> thresold Semantic distance
+-  SemanticCache(RAG) --> threshold Semantic distance
 
 **6_RAG_langchain**
 In this code, we try to use the langchain library with the approach of using RAG.Important topics:
