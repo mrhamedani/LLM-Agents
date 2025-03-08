@@ -42,6 +42,10 @@ In this code, we try to use the langchain library with the approach of using RAG
 
 **7_LLAMA2_Moderation**
 
+In order to give a filtered answer to the user (for example, a rude question), we use this Moderation System technique with and longchain. Here we use one model to respond to users and another model to check and change inappropriate answers. Finally, we connect the two using longchain.Important topics:
+- Model: Llama-2-7b-chat-hf / meta-llama/Meta-Llama-3.1-8B-Instruct
+- Create a Moderation System using LangChain
+
 
 
 
