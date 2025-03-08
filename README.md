@@ -46,6 +46,11 @@ In order to give a filtered answer to the user (for example, a rude question), w
 - Model: Llama-2-7b-chat-hf / meta-llama/Meta-Llama-3.1-8B-Instruct
 - Create a Moderation System using LangChain
 
+**8_LLMAgent**
+In this code, we will create a simple but useful agent to analyze data created in Excel..Important topics:
+- LangChain --> create_pandas_dataframe_agent (It is a tool)
+- langchain_openai --> ChatOpenAI & OpenAI
+
 
 
 
