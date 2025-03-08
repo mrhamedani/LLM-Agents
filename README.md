@@ -26,6 +26,7 @@ Then we connect the model to Chroma DB. Now the model answers our question using
 - Using Transformers libery for working with LLM -->AutoTokenizer/AutoModelForCausalLM/pipeline
 
 **5.SemanticCache-Faiss&ChromaDB**
+
 A semantic caching system aims to identify similar or identical user requests. When a matching request is found, the system retrieves the corresponding information from the cache, reducing the need to fetch it from the original source.I place the cache system between the user and the vector database, not between the user and the large language model.Important topics:
 -  hugging face --> Gemma-2b-it model 
 -  Database on ChromaDB & SemanticCache on Faiss
@@ -33,9 +34,16 @@ A semantic caching system aims to identify similar or identical user requests. W
 -  SemanticCache(RAG) --> threshold Semantic distance
 
 **6_RAG_langchain**
+
 In this code, we try to use the langchain library with the approach of using RAG.Important topics:
 - using langchain --> TextSplitter & embeddings & HuggingFacePipeline & Chroma & RetrievalQA
 - ushng langchain  LCEL Architecture
 - T5 & dolly-v2-3b models
+
+**7_LLAMA2_Moderation**
+
+
+
+
   
 ـ
