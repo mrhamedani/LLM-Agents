@@ -47,10 +47,15 @@ In order to give a filtered answer to the user (for example, a rude question), w
 - Create a Moderation System using LangChain
 
 **8_LLMAgent**
-In this code, we will create a simple but useful agent to analyze data created in Excel..Important topics:
+In this code, we will create a simple but useful agent to analyze data created in Excel.Important topics:
 - LangChain --> create_pandas_dataframe_agent (It is a tool)
 - langchain_openai --> ChatOpenAI & OpenAI
 
+**9_Medical_Assistant_Agent**
+In this code, we tried to build an agent using langchain using a dataset related to medical science. This agent has two tools: summarization and question answering, which it uses automatically when answering questions. Also, a very important point that should always be used in building an agent is data chunking..Important topics:
+- LangChain --> create agent with tools
+- chunking
+- memory, embedding , prompt , local LLm(Mistral-7B) , RAG with chroma_db 
 
 
 
