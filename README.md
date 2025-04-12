@@ -55,6 +55,11 @@ In this code, we will create a simple but useful agent to analyze data created i
 In this code, we tried to build an agent using langchain using a dataset related to medical science. This agent has two tools: summarization and question answering, which it uses automatically when answering questions. Also, a very important point that should always be used in building an agent is data chunking..Important topics:
 - LangChain --> create agent with tools
 - chunking
+
+**10_bleu_evaluation**
+In this code, we will be introduced to an evaluation and scoring method called BLEU. This criterion is used solely for translation, and we will use this criterion to compare two different translations.
+- Evaluating translations with BLEU
+- google translate & NLLB
 - memory, embedding , prompt , local LLm(Mistral-7B) , RAG with chroma_db 
 
 
