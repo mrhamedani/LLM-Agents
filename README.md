@@ -47,23 +47,30 @@ In order to give a filtered answer to the user (for example, a rude question), w
 - Create a Moderation System using LangChain
 
 **8_LLMAgent**
+
 In this code, we will create a simple but useful agent to analyze data created in Excel.Important topics:
 - LangChain --> create_pandas_dataframe_agent (It is a tool)
 - langchain_openai --> ChatOpenAI & OpenAI
 
 **9_Medical_Assistant_Agent**
-In this code, we tried to build an agent using langchain using a dataset related to medical science. This agent has two tools: summarization and question answering, which it uses automatically when answering questions. Also, a very important point that should always be used in building an agent is data chunking..Important topics:
+
+In this code, we tried to build an agent using langchain using a dataset related to medical science. This agent has two tools: summarization and question answering, which it uses automatically when answering questions. Also, a very important point that should always be used in building an agent is data chunking.Important topics:
 - LangChain --> create agent with tools
 - chunking
 
 **10_bleu_evaluation**
+
 In this code, we will be introduced to an evaluation and scoring method called BLEU. This criterion is used solely for translation, and we will use this criterion to compare two different translations.
 - Evaluating translations with BLEU
 - google translate & NLLB
 - memory, embedding , prompt , local LLm(Mistral-7B) , RAG with chroma_db
 
 **11_rouge_evaluations**
-In this code, we will be introduced to an evaluation and scoring method called rouge.
+
+In this code, we will be introduced to an evaluation and scoring method called rouge.This benchmark is used for summary and in this code we compare the performance of two T5-based LLMs.Important topics:
+- Summarization evaluation with ROUGE (by a third reference text)
+- Function Summary
+
 
 
 
