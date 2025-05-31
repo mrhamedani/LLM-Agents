@@ -75,8 +75,16 @@ In this code, we will be introduced to an evaluation and scoring method called r
 **LangSmith_agent**
 In this notebook, we will explore how to track the various calls that occur in the LangChain Agent using LangSmith.Keys:
 - Tracing LLMs with LangSmith
-- initialize_agent or 
+- initialize_agent or AgentExecutor :
+If the goal is to quickly build a simple agent, initialize_agent is a convenient and efficient choice. However, for greater control, advanced customization, or integration with more complex architectures such as LangGraph or RAG, using AgentExecutor directly is recommended.
 - together.api_key for local LLM
+- Prompt writing methods:
+-  If you need a quick and simple prompt, from_template is ideal.
+For more control over variables, use PromptTemplate directly.
+For chat models like GPT-4, ChatPromptTemplate is best for structuring messages.
+To guide the model with examples, use FewShotPromptTemplate.
+For fully dynamic prompts, subclass StringPromptTemplate.
+And if your prompt should adapt to context (e.g., memory), use DynamicPromptTemplate.
 
   
 ـ
