@@ -72,7 +72,11 @@ In this code, we will be introduced to an evaluation and scoring method called r
 - Function Summary
 
 
-
+**LangSmith_agent**
+In this notebook, we will explore how to track the various calls that occur in the LangChain Agent using LangSmith.Keys:
+- Tracing LLMs with LangSmith
+- initialize_agent or 
+- together.api_key for local LLM
 
   
 ـ
