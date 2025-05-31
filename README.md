@@ -73,6 +73,7 @@ In this code, we will be introduced to an evaluation and scoring method called r
 
 
 **12-LangSmith_agent**
+
 In this notebook, we will explore how to track the various calls that occur in the LangChain Agent using LangSmith.Keys:
 - Tracing LLMs with LangSmith
 - initialize_agent or AgentExecutor :
@@ -86,5 +87,10 @@ To guide the model with examples, use FewShotPromptTemplate.
 For fully dynamic prompts, subclass StringPromptTemplate.
 And if your prompt should adapt to context (e.g., memory), use DynamicPromptTemplate.
 
-  
+
+**13_Tracing_&_Evaluating_with_LangSmith**
+
+This project compares the summarization quality of three models — t5-base, flax-community/t5-base-cnn-dm, and OpenAI GPT — using the CNN/DailyMail dataset. It evaluates their outputs based on embedding similarity against human-written summaries, leveraging LangSmith for structured experiment tracking. You can easily extend it to include metrics like ROUGE or BLEU.
+ - summarization ( T5, OpenAI) 
+ - LangSmith embedding distance evaluation.
 ـ
