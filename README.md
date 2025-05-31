@@ -79,7 +79,7 @@ In this notebook, we will explore how to track the various calls that occur in t
 If the goal is to quickly build a simple agent, initialize_agent is a convenient and efficient choice. However, for greater control, advanced customization, or integration with more complex architectures such as LangGraph or RAG, using AgentExecutor directly is recommended.
 - together.api_key for local LLM
 - Prompt writing methods:
--  If you need a quick and simple prompt, from_template is ideal.
+If you need a quick and simple prompt, from_template is ideal.
 For more control over variables, use PromptTemplate directly.
 For chat models like GPT-4, ChatPromptTemplate is best for structuring messages.
 To guide the model with examples, use FewShotPromptTemplate.
